@@ -41,7 +41,7 @@ const Header = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <Link href="#Banner" onClick={handleScroll}>
+              <Link href="#Home" onClick={handleScroll}>
                 Home
               </Link>
             </motion.li>
@@ -124,8 +124,8 @@ const Header = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                <Link href="#HowItWorks" onClick={handleScroll}>
-                  how it works
+                <Link href="#Home" onClick={handleScroll}>
+                  Home
                 </Link>
               </motion.li>
               <motion.li
@@ -133,8 +133,8 @@ const Header = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                <Link href="#AboutUs" onClick={handleScroll}>
-                  About Us
+                <Link href="#Menu" onClick={handleScroll}>
+                  Menu
                 </Link>
               </motion.li>
               <motion.li
@@ -142,8 +142,8 @@ const Header = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                <Link href="#OurAgents" onClick={handleScroll}>
-                  Our Agent
+                <Link href="#Facility" onClick={handleScroll}>
+                  Facility
                 </Link>
               </motion.li>
               <motion.li
@@ -151,29 +151,26 @@ const Header = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
               >
-                <Link href="#ContactUs" onClick={handleScroll}>
-                  Contact Us
+                <Link href="#Reviews" onClick={handleScroll}>
+                  Reviews
                 </Link>
               </motion.li>
             </ul>
-            <div className="space-y-4">
-              <motion.button
-                initial={{ y: -50, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.6 }}
-                className="border block w-[170px] border-slate-600 p-2 rounded-full"
+            <motion.div
+              initial={{ y: -50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              className="text-standardcolor"
+            >
+              <Link
+                href="#"
+                className="flex items-end gap-2 text-[14px]"
+                onClick={handleScroll}
               >
-                Free Consultation
-              </motion.button>
-              <motion.button
-                initial={{ y: -50, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.7 }}
-                className="border block w-[170px] bg-standardBlue text-white p-2 rounded-full"
-              >
-                Configure now
-              </motion.button>
-            </div>
+                <BsTelephone className="h-5 w-5" />
+                (+00) 0012-3400-5006
+              </Link>
+            </motion.div>
           </motion.div>
         ) : null}
       </div>
