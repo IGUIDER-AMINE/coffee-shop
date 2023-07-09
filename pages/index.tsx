@@ -1,8 +1,24 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import Head from "next/head";
+import dynamic from "next/dynamic";
 
-const inter = Inter({ subsets: ["latin"] });
+import Layout from "@/components/layout/layout";
+const Banner = dynamic(() => import("@/components/sections/Banner"));
+const Menu = dynamic(() => import("@/components/sections/Menu"));
+const Facility = dynamic(() => import("@/components/sections/Facility"));
+const Reviews = dynamic(() => import("@/components/sections/Reviews"));
 
 export default function Home() {
-  return <main>ss</main>;
+  return (
+    <>
+      <Head>
+        <title>Coffee-Shop</title>
+      </Head>
+      <Layout>
+        <Banner />
+        <Menu />
+        <Facility />
+        <Reviews />
+      </Layout>
+    </>
+  );
 }
