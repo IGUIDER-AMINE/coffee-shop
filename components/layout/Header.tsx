@@ -25,7 +25,7 @@ const Header = () => {
   };
 
   return (
-    <section className="w-full sticky bg-white top-0 z-10">
+    <section className="w-full sticky bg-[#F0F0F0] top-0 z-10">
       <div className="text-[15px] font-medium py-4 flex items-center justify-between container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0 }}
@@ -103,7 +103,7 @@ const Header = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="flex z-10 flex-col gap-y-4 p-4 bg-white top-0 left-0 w-full h-screen absolute"
+            className="flex z-10 flex-col gap-y-4 p-4 bg-[#F0F0F0] top-0 left-0 w-full h-screen absolute"
           >
             <div className="flex items-center">
               <motion.div
