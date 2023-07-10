@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { img1 } from "@/public/asstes";
 import Image from "next/image";
+
 const Banner = () => {
   return (
     <section id="Home" className="relative bg-[#F0F0F0] pb-16 pt-24">
@@ -29,7 +30,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:block ">
+        <div className="hidden lg:block ">
           <Image
             src={img1}
             alt="COFFEEEE"
