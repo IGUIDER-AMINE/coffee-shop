@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <section id="Menu">
       <div className="space-y-8 py-8 bg-gradient-to-r from-[#34393E] via-[#2F3338] to-[#2B2F33] min-h-[500px] ">
-        <div className="container mx-auto space-y-8 px-4">
+        <div className="container mx-auto space-y-8 px-4 lg:px-24">
           <h1 className="font-semibold text-xl font-titleFont text-[#545C64]">
             Enjoy your coffee in our comfortable
           </h1>
@@ -30,7 +30,7 @@ const Menu = () => {
           </div>
         </div>
       </div>
-      <div className="space-y-8 px-4 bg-gradient-to-r from-[#F0F0F0] via-[#F0F0F0] to-[#E5E5E5] min-h-[500px] ">
+      <div className="space-y-8 px-4 lg:px-24 bg-gradient-to-r from-[#F0F0F0] via-[#F0F0F0] to-[#E5E5E5] min-h-[500px] ">
         <div className="container mx-auto "></div>
       </div>
     </section>
