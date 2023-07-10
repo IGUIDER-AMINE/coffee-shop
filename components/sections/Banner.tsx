@@ -34,7 +34,7 @@ const Banner = () => {
           <Image
             src={img1}
             alt="COFFEEEE"
-            className="object-cover border-[4px] right-4 md:right-12 lg:right-32 w-[300px] top-14 border-l-[#484956] h-[580px] lg:h-[640px] absolute border-t-[#909299] shadow border-b-[#484956]"
+            className="object-cover border-[4px] right-4 md:right-8 lg:right-32 w-[300px] top-14 border-l-[#484956] h-[500px] lg:h-[640px] absolute border-t-[#909299] shadow border-b-[#484956]"
             quality={100}
             width={400}
             height={600}
