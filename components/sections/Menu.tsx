@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { img2 } from "@/public/asstes";
+import { img2, img4 } from "@/public/asstes";
 import { RiHeartLine } from "react-icons/ri";
 
 const Menu = () => {
@@ -118,7 +118,7 @@ const Menu = () => {
             </div>
             <div className="hidden md:flex justify-end flex-1 relative">
               <Image
-                src={img2}
+                src={img4}
                 alt="COFFEEEE"
                 className="object-cover border-[4px] w-[300px]  lg:w-[400px]  border-l-[#484956] h-[500px] lg:h-[640px] border-t-[#909299] shadow border-b-[#484956]"
                 quality={100}
