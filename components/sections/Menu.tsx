@@ -88,7 +88,6 @@ const Menu = () => {
           </div>
         </div>
       </div>
-      {/* ----------------------------------------- */}
       <div className="py-36  px-4 lg:px-24 bg-gradient-to-r from-[#F0F0F0] via-[#F0F0F0] to-[#E5E5E5]">
         <div className="container mx-auto">
           <div className="px-4 gap-x-10 flex items-center">
