@@ -34,10 +34,10 @@ const Facility = () => {
         </div>
       </div>
       <div className="px-4 lg:px-24 bg-gradient-to-r from-[#34393E] via-[#2F3338] to-[#2B2F33]">
-        <div className="container mx-auto relative min-h-[450px]">
-          <div className="absolute top-[-50px] w-full">
-            <div className="flex gap-x-8 z-10 relative">
-              <div className="w-[65%]">
+        <div className="container z-0 mx-auto relative min-h-[450px]">
+          <div className="relative lg:absolute top-[-50px] w-full">
+            <div className="flex flex-col md:flex-row gap-8 relative">
+              <div className="w-[100%] relative md:w-[65%]">
                 <Image
                   src={img10}
                   alt="COFFEEEE"
@@ -46,8 +46,8 @@ const Facility = () => {
                   width={400}
                   height={250}
                 />
-                <div className="absolute border-[3px] border-l-[#484956] border-t-[#3D4145] border-b-[#909299] bottom-[4%]  lg:bottom-[20%] left-[-55px] bg-white min-h-[50px] max-h-[100px] min-w-[250px] xl:max-w-[341px]">
-                  <div className="p-6 pl-8">
+                <div className="absolute border-[3px] border-l-[#484956] border-t-[#3D4145] border-b-[#909299] bottom-[5%]  lg:bottom-[20%] right-[5%] md:right-0 left-[5%] lg:left-[-55px] bg-white min-h-[50px] max-h-[100px] max-w-[341px]">
+                  <div className="p-2 md:p-6 md:pl-8">
                     <q className="font-medium text-[#8B8D8F]">
                       Designed by professional interior designer and well-known
                       artist.
@@ -55,11 +55,11 @@ const Facility = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[35%] right-0">
+              <div className="w-[100%] md:w-[35%] right-0">
                 <Image
                   src={img8}
                   alt="COFFEEEE"
-                  className="object-cover border-[4px] border-l-[#484956] border-t-[#909299] h-full shadow border-b-[#484956]"
+                  className="object-cover border-[4px] border-l-[#484956] w-full border-t-[#909299] max-h-[250px] md:h-full shadow border-b-[#484956]"
                   quality={100}
                   width={400}
                   height={250}
@@ -67,19 +67,19 @@ const Facility = () => {
               </div>
             </div>
           </div>
-          <div className="absolute bottom-[-50px] w-full">
-            <div className="flex gap-x-8 z-10">
-              <div className="w-[35%] right-0">
+          <div className="relative lg:absolute bottom-[-50px] w-full">
+            <div className="flex flex-col md:flex-row gap-8 relative">
+              <div className="w-[100%] md:w-[35%] right-0">
                 <Image
                   src={img9}
                   alt="COFFEEEE"
-                  className="object-cover border-[4px] border-l-[#484956] border-t-[#909299] h-full shadow border-b-[#484956]"
+                  className="object-cover border-[4px] border-l-[#484956] border-t-[#909299] h-full shadow w-full border-b-[#484956]"
                   quality={100}
                   width={400}
                   height={250}
                 />
               </div>
-              <div className="w-[65%] relative">
+              <div className="w-[100%] md:w-[65%] relative">
                 <Image
                   src={img12}
                   alt="COFFEEEE"
@@ -88,8 +88,8 @@ const Facility = () => {
                   width={400}
                   height={250}
                 />
-                <div className="absolute border-[3px] border-l-[#484956] border-t-[#3D4145] border-b-[#909299] bottom-[4%]  lg:top-[20%] right-[-55px] bg-white min-h-[50px] max-h-[100px] min-w-[250px] xl:max-w-[341px]">
-                  <div className="p-6 pl-8">
+                <div className="absolute border-[3px] border-l-[#484956] border-t-[#3D4145] border-b-[#909299] bottom-[5%]  lg:top-[20%] right-[5%] lg:right-[-55px] bg-white min-h-[50px] max-h-[100px] ml-5 md:ml-0  max-w-[341px]">
+                  <div className="p-2 md:p-6 md:pl-8">
                     <q className="font-medium text-[#8B8D8F]">
                       Prepared only to make our customer feel comfortable.
                     </q>
