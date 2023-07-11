@@ -36,7 +36,7 @@ const Facility = () => {
       <div className="px-4 lg:px-24 bg-gradient-to-r from-[#34393E] via-[#2F3338] to-[#2B2F33]">
         <div className="container mx-auto relative min-h-[450px]">
           <div className="absolute top-[-50px] w-full">
-            <div className="flex gap-x-8 z-10">
+            <div className="flex gap-x-8 z-10 relative">
               <div className="w-[65%]">
                 <Image
                   src={img10}
@@ -46,6 +46,14 @@ const Facility = () => {
                   width={400}
                   height={250}
                 />
+                <div className="absolute border-[3px] border-l-[#484956] border-t-[#3D4145] border-b-[#909299] bottom-[4%]  lg:bottom-[20%] left-[-55px] bg-white min-h-[50px] max-h-[100px] min-w-[250px] xl:max-w-[341px]">
+                  <div className="p-6 pl-8">
+                    <q className="font-medium text-[#8B8D8F]">
+                      Designed by professional interior designer and well-known
+                      artist.
+                    </q>
+                  </div>
+                </div>
               </div>
               <div className="w-[35%] right-0">
                 <Image
@@ -71,7 +79,7 @@ const Facility = () => {
                   height={250}
                 />
               </div>
-              <div className="w-[65%]">
+              <div className="w-[65%] relative">
                 <Image
                   src={img12}
                   alt="COFFEEEE"
@@ -80,6 +88,13 @@ const Facility = () => {
                   width={400}
                   height={250}
                 />
+                <div className="absolute border-[3px] border-l-[#484956] border-t-[#3D4145] border-b-[#909299] bottom-[4%]  lg:top-[20%] right-[-55px] bg-white min-h-[50px] max-h-[100px] min-w-[250px] xl:max-w-[341px]">
+                  <div className="p-6 pl-8">
+                    <q className="font-medium text-[#8B8D8F]">
+                      Prepared only to make our customer feel comfortable.
+                    </q>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
