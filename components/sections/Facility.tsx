@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { img2, img4 } from "@/public/asstes";
+import { img2, img4, img7, img8 } from "@/public/asstes";
 import { RiHeartLine } from "react-icons/ri";
 
 const Facility = () => {
@@ -20,6 +20,32 @@ const Facility = () => {
               Our place designed by pro architecture with psychologist to <br />
               build best place suit you.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="px-4 lg:px-24 bg-gradient-to-r from-[#34393E] via-[#2F3338] to-[#2B2F33]">
+        <div className="container mx-auto">
+          <div className="flex gap-x-8">
+            <div className="">
+              <Image
+                src={img7}
+                alt="COFFEEEE"
+                className="object-cover border-[4px] border-l-[#484956]   border-t-[#909299] shadow border-b-[#484956]"
+                quality={100}
+                width={400}
+                height={600}
+              />
+            </div>
+            <div className="">
+              <Image
+                src={img8}
+                alt="COFFEEEE"
+                className="object-cover border-[4px] border-l-[#484956]   border-t-[#909299] shadow border-b-[#484956]"
+                quality={100}
+                width={400}
+                height={600}
+              />
+            </div>
           </div>
         </div>
       </div>
