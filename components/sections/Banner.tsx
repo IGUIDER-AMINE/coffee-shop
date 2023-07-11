@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section id="Home" className="relative bg-[#F0F0F0] pb-16 pt-16 lg:pt-24">
-      <div className=" bg-[#F0F0F0] container mx-auto px-4 lg:px-24 flex items-center">
+    <section id="Home" className=" bg-[#F0F0F0] pb-16 pt-16 lg:pt-24">
+      <div className=" bg-[#F0F0F0] container mx-auto px-4 lg:px-24 flex ">
         <div className="space-y-8 md:max-w-[50%]">
           <div className="text-[#D9A97A] font-medium font-titleFont">
             COUFFEEEE
@@ -30,11 +30,11 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:block ">
+        <div className="hidden md:block relative flex-1">
           <Image
             src={img1}
             alt="COFFEEEE"
-            className="object-cover border-[4px] right-4 md:right-8 lg:right-32 w-[300px] top-14 border-l-[#484956] h-[500px] lg:h-[640px] absolute border-t-[#909299] shadow border-b-[#484956]"
+            className="object-cover border-[4px] right-4 md:right-0 lg:right-[-18px] xl:right-0 top-[-52px] w-[300px] lg:w-[400px]  border-l-[#484956] h-[500px] lg:h-[640px] absolute border-t-[#909299] shadow border-b-[#484956]"
             quality={100}
             width={400}
             height={600}
