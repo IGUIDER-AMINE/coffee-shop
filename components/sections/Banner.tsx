@@ -9,28 +9,57 @@ const Banner = () => {
     <section id="Home" className=" bg-[#F0F0F0] pb-16 pt-16 lg:pt-24">
       <div className=" bg-[#F0F0F0] container mx-auto px-4 lg:px-24 flex ">
         <div className="space-y-8 md:max-w-[50%]">
-          <div className="text-[#D9A97A] font-medium font-titleFont">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="text-[#D9A97A] font-medium font-titleFont"
+          >
             COUFFEEEE
-          </div>
-          <h1 className="text-[#2B2F33] text-4xl lg:text-5xl xl:text-7xl font-semibold font-titleFont">
+          </motion.div>
+          <motion.h1
+            initial={{ opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-[#2B2F33] text-4xl lg:text-5xl xl:text-7xl font-semibold font-titleFont"
+          >
             Enjoy Your <br /> Morning Coffee
-          </h1>
-          <p className="text-[#787E85] font-medium lg:max-w-[65%]">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="text-[#787E85] font-medium lg:max-w-[65%]"
+          >
             Boost your productivity and buid your mood with a glass of coffee in
             the morning.
-          </p>
+          </motion.p>
           <div className="flex items-center gap-x-4 font-medium">
-            <button className="text-white border-[3px] border-l-[#484956] border-t-[#909299] shadow border-b-[#484956] bg-[#1F2131] py-2 px-3">
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="text-white border-[3px] border-l-[#484956] border-t-[#909299] shadow border-b-[#484956] bg-[#1F2131] py-2 px-3"
+            >
               Get your now
-            </button>
-            <div>
+            </motion.button>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+            >
               <Link href="#" className="underline">
                 Reservation
               </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
-        <div className="hidden md:block relative flex-1">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+          className="hidden md:block relative flex-1"
+        >
           <Image
             src={img1}
             alt="COFFEEEE"
@@ -39,7 +68,7 @@ const Banner = () => {
             width={400}
             height={600}
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );
