@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { FiMapPin } from "react-icons/Fi";
+import { GiCircleClaws } from "react-icons/Gi";
 
 const footer = () => {
   return (
@@ -10,7 +11,10 @@ const footer = () => {
     >
       <div className="container mx-auto grid grid-cols-12">
         <div className="space-x-6">
-          <h1 className="font-titleFont text-white font-bold">Coffeeee</h1>
+          <h1 className="font-titleFont text-white font-bold space-x-2">
+            <GiCircleClaws className="h-16 w-16" />
+            <span>Coffeeee</span>
+          </h1>
           <p>
             Coffeeee is a cafe that serve many wariant of coffee and other
             dishes with very comfortable place.
