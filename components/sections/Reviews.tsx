@@ -6,7 +6,7 @@ const Reviews = () => {
   return (
     <div
       id="Reviews"
-      className="space-y-12 py-36 container mx-auto px-4 lg:px-24"
+      className="space-y-12 pt-36 container mx-auto px-4 lg:px-24"
     >
       <h1 className="text-[#787E85] font-medium font-titleFont text-center">
         They trust <span className="text-[#2B2F33]">Couffeeee</span> as their
