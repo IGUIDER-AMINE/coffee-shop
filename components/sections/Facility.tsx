@@ -5,7 +5,7 @@ import { img10, img12, img8, img9 } from "@/public/asstes";
 const Facility = () => {
   return (
     <section id="Facility">
-      <div className="px-4 lg:px-24 pb-32 bg-gradient-to-r from-[#F0F0F0] via-[#F0F0F0] to-[#E5E5E5]">
+      <div className="px-4 lg:px-24 pb-32">
         <div className="container mx-auto">
           <div className="space-y-8 text-center">
             <div className="text-[#D9A97A] font-medium font-titleFont">

@@ -6,6 +6,7 @@ const Banner = dynamic(() => import("@/components/sections/Banner"));
 const Menu = dynamic(() => import("@/components/sections/Menu"));
 const Facility = dynamic(() => import("@/components/sections/Facility"));
 const Reviews = dynamic(() => import("@/components/sections/Reviews"));
+const Order = dynamic(() => import("@/components/sections/Order"));
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Menu />
         <Facility />
         <Reviews />
+        <Order />
       </Layout>
     </>
   );
