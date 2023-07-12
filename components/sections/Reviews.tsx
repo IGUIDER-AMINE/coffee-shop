@@ -1,5 +1,6 @@
 import { img13, img14, img15, img16 } from "@/public/asstes";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Reviews = () => {
@@ -33,6 +34,33 @@ const Reviews = () => {
           alt="Client"
           className="object-contain sm:max-w-[45%] md:max-w-[25%]"
         />
+      </div>
+      <div className="py-36  px-4 lg:px-24">
+        <div className="container mx-auto">
+          <div className="px-4 gap-x-10 flex items-center">
+            <div className="space-y-8 md:max-w-[50%]">
+              <div className="text-[#D9A97A] font-medium font-titleFont">
+                OUR REVIEW
+              </div>
+              <h1 className="text-[#2B2F33] text-4xl lg:text-5xl xl:text-5xl font-medium font-titleFont">
+                Let Our Customer Talk About Us
+              </h1>
+              <p className="text-[#787E85] font-medium lg:max-w-[80%]">
+                We always providing the best to make our customer pleasent with
+                our services.
+              </p>
+              <div className="space-x-8">
+                <Link href="#" className="underline text-[#ACAEAF] font-bold">
+                  Before
+                </Link>
+                <Link href="#" className="underline text-[#2B2F33] font-bold">
+                  More menu
+                </Link>
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
       </div>
     </div>
   );
