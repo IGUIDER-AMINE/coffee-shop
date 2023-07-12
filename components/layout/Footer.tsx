@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FiMapPin } from "react-icons/Fi";
+// import { FiMapPin } from "react-icons/Fi";
 import { GiCircleClaws } from "react-icons/Gi";
 
 const footer = () => {
@@ -21,7 +21,7 @@ const footer = () => {
               dishes with very comfortable place.
             </p>
             <div className="flex gap-x-2 max-w-[400px]">
-              <FiMapPin className="h-6 w-6" />
+              {/* <FiMapPin className="h-6 w-6" /> */}
               <span>Jl. Soedirman no 45, Jakarta Selatan, Indonesia</span>
             </div>
           </div>
