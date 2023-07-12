@@ -59,7 +59,7 @@ const Header = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              <Link href="#OurAgents" onClick={handleScroll}>
+              <Link href="#Facility" onClick={handleScroll}>
                 Facility
               </Link>
             </motion.li>
@@ -68,7 +68,7 @@ const Header = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
             >
-              <Link href="#ContactUs" onClick={handleScroll}>
+              <Link href="#Reviews" onClick={handleScroll}>
                 Reviews
               </Link>
             </motion.li>

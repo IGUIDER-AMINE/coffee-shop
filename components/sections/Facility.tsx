@@ -1,18 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import {
-  img10,
-  img11,
-  img12,
-  img2,
-  img4,
-  img6,
-  img7,
-  img8,
-  img9,
-} from "@/public/asstes";
-import { RiHeartLine } from "react-icons/ri";
+import { img10, img12, img8, img9 } from "@/public/asstes";
 
 const Facility = () => {
   return (
