@@ -31,7 +31,7 @@ const Reviews = () => {
         <Image
           src={img16}
           alt="Client"
-          className="object-contain bg-red-400 sm:max-w-[45%] md:max-w-[25%]"
+          className="object-contain sm:max-w-[45%] md:max-w-[25%]"
         />
       </div>
     </div>
