@@ -10,6 +10,10 @@ import img9 from "./images/img9.jpg";
 import img10 from "./images/img10.jpg";
 import img11 from "./images/img11.jpg";
 import img12 from "./images/img12.jpg";
+import img13 from "./images/img13.svg";
+import img14 from "./images/img14.svg";
+import img15 from "./images/img15.svg";
+import img16 from "./images/img16.svg";
 
 export {
   img1,
@@ -24,4 +28,8 @@ export {
   img10,
   img11,
   img12,
+  img13,
+  img14,
+  img15,
+  img16,
 };

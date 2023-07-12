@@ -12,8 +12,8 @@ const Order = () => {
       <div className="md:w-[40%]">
         <p className="text-[#787E85] font-medium">
           Don&apos;t let your coffee cold, let&apos;s go to{" "}
-          <span className="font-semibold">Couffeeee</span> and get your coffe
-          and boost your day now.
+          <span className="font-semibold text-[#2B2F33]">Couffeeee</span> and
+          get your coffe and boost your day now.
         </p>
       </div>
       <div>
