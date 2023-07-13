@@ -11,7 +11,7 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Real-Estate created by Amine IGUIDER in 2023/07"
+          content="Coffee-Shop created by Amine IGUIDER in 2023/07"
         />
         <meta name="keywords" content="Real-Estate" />
       </Head>
