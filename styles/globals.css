@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiperSlate {
+  @apply bg-[#2B2F33] border-[4px] border-l-[#484956] border-t-[#909299]  border-b-[#484956] text-white;
+}
+
+.swiperWhite {
+  @apply bg-white text-[#2B2F33] relative top-14;
+}

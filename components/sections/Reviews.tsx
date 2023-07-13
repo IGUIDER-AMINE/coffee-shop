@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { reviews_data } from "@/util/data";
 
 const Reviews = () => {
   return (
@@ -37,10 +38,10 @@ const Reviews = () => {
           className="object-contain sm:max-w-[45%] md:max-w-[25%]"
         />
       </div>
-      <div className="py-36  px-4 lg:px-24">
+      <div className="py-20">
         <div className="container mx-auto">
-          <div className="px-4 gap-x-10 flex items-center">
-            <div className="space-y-8">
+          <div className="gap-x-10 flex flex-col md:flex-row flex-warp items-center">
+            <div className="space-y-8 min-w-[50%] md:max-w-[50%]">
               <div className="text-[#D9A97A] font-medium font-titleFont">
                 OUR REVIEW
               </div>
@@ -60,9 +61,9 @@ const Reviews = () => {
                 </Link>
               </div>
             </div>
-            <div className="max-w-[50%]">
+            <div className="max-w-[100%] md:max-w-[45%] lg:max-w-[70%] pt-8">
               <Swiper
-                slidesPerView={2}
+                slidesPerView={"auto"}
                 spaceBetween={10}
                 loop={true}
                 speed={3000}
@@ -70,11 +71,38 @@ const Reviews = () => {
                   delay: 2500,
                   disableOnInteraction: false,
                 }}
+                className="min-h-[300px]"
+                breakpoints={{
+                  0: {
+                    slidesPerView: 1,
+                  },
+                  500: {
+                    slidesPerView: 1,
+                  },
+                  905: {
+                    slidesPerView: 2,
+                  },
+                }}
               >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
+                {reviews_data?.map((item) => {
+                  return (
+                    <SwiperSlide key={item?.id}>
+                      <div
+                        className={`${
+                          item?.id % 2 == 0 ? "swiperWhite" : "swiperSlate"
+                        } p-4 shadow space-y-5 font-medium`}
+                      >
+                        <q>{item?.reviews}</q>
+                        <div className="space-y-1">
+                          <div className="text-[14px]">{item?.person_name}</div>
+                          <div className="text-[#787B7E] text-[12px]">
+                            {item?.status}
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  );
+                })}
               </Swiper>
             </div>
           </div>
