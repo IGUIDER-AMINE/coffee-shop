@@ -25,7 +25,7 @@ const Coffee = () => {
           </div>
         </div>
       </div>
-      <div className="space-y-8  h-[500px] md:max-w-[50%]">
+      <div className="space-y-6 md:space-y-8 py-8 md:py-0 md:h-[500px] md:max-w-[50%]">
         <div className="text-[#D9A97A] font-medium font-titleFont">
           OUR COUFFEE
         </div>

@@ -5,9 +5,9 @@ import { img10, img12, img8, img9 } from "@/public/asstes";
 const Facility = () => {
   return (
     <section id="Facility">
-      <div className="px-4 lg:px-24 pb-32">
+      <div className="px-4 lg:px-24 pb-20 md:pb-32">
         <div className="container mx-auto">
-          <div className="space-y-8 text-center">
+          <div className="space-y-6 md:space-y-8 text-center">
             <div className="text-[#D9A97A] font-medium font-titleFont">
               OUR FACILITY
             </div>

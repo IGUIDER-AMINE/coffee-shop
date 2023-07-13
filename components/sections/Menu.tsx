@@ -6,13 +6,13 @@ import Dishes from "../elements/Dishes";
 const Menu = () => {
   return (
     <section id="Menu">
-      <div className="pt-8 pb-16 bg-gradient-to-r from-[#34393E] via-[#2F3338] to-[#2B2F33]">
-        <div className="container mx-auto space-y-36">
+      <div className="pt-8 md:pb-16 bg-gradient-to-r from-[#34393E] via-[#2F3338] to-[#2B2F33]">
+        <div className="container mx-auto space-y-8 md:space-y-36">
           <Statistic />
           <Coffee />
         </div>
       </div>
-      <div className="py-36  px-4 lg:px-24">
+      <div className="py-8 md:py-36  px-4 lg:px-24">
         <Dishes />
       </div>
     </section>

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section id="Home" className=" bg-[#F0F0F0] pb-16 pt-16 lg:pt-24">
+    <section id="Home" className=" bg-[#F0F0F0] py-8 md:py-16 lg:pt-24">
       <div className=" bg-[#F0F0F0] container mx-auto px-4 lg:px-24 flex ">
         <div className="space-y-8 md:max-w-[50%]">
           <motion.div

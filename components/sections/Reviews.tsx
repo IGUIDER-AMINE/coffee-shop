@@ -10,7 +10,7 @@ const Reviews = () => {
   return (
     <div
       id="Reviews"
-      className="space-y-12 pt-36 container mx-auto px-4 lg:px-24"
+      className="space-y-6 md:space-y-12 pt-20 md:pt-36 container mx-auto px-4 lg:px-24"
     >
       <h1 className="text-[#787E85] font-medium font-titleFont text-center">
         They trust <span className="text-[#2B2F33]">Couffeeee</span> as their
@@ -38,10 +38,10 @@ const Reviews = () => {
           className="object-contain sm:max-w-[45%] md:max-w-[25%]"
         />
       </div>
-      <div className="py-20">
+      <div className="py-8 md:py-20">
         <div className="container mx-auto">
           <div className="gap-x-10 flex flex-col md:flex-row flex-warp items-center">
-            <div className="space-y-8 min-w-[50%] md:max-w-[50%]">
+            <div className="space-y-6 md:space-y-8 min-w-[50%] md:max-w-[50%]">
               <div className="text-[#D9A97A] font-medium font-titleFont">
                 OUR REVIEW
               </div>

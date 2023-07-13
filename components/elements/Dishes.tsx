@@ -8,7 +8,7 @@ const Dishes = () => {
   return (
     <div className="container mx-auto">
       <div className="px-4 gap-x-10 flex items-center">
-        <div className="space-y-8 md:max-w-[50%]">
+        <div className="space-y-6 md:space-y-8 md:max-w-[50%]">
           <div className="text-[#D9A97A] font-medium font-titleFont">
             OUR DISHES
           </div>
