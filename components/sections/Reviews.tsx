@@ -38,7 +38,7 @@ const Reviews = () => {
           className="object-contain sm:max-w-[45%] md:max-w-[25%]"
         />
       </div>
-      <div className="py-8 md:py-20">
+      <div className="pt-8 pb-0 md:py-20">
         <div className="container mx-auto">
           <div className="gap-x-10 flex flex-col md:flex-row flex-warp items-center">
             <div className="space-y-6 md:space-y-8 min-w-[50%] md:max-w-[50%]">
@@ -71,7 +71,7 @@ const Reviews = () => {
                   delay: 2500,
                   disableOnInteraction: false,
                 }}
-                className="min-h-[300px]"
+                className="min-h-[250px] md:min-h-[300px]"
                 breakpoints={{
                   0: {
                     slidesPerView: 1,

@@ -4,7 +4,7 @@ const Order = () => {
   return (
     <section
       id="Order"
-      className="container mx-auto px-4 lg:px-24 gap-y-8 gap-x-4 flex flex-wrap py-20 items-center justify-between"
+      className="container mx-auto px-4 lg:px-24 gap-y-8 gap-x-4 flex flex-wrap py-8 md:py-20 items-center justify-between"
     >
       <h1 className="text-[#2B2F33] text-4xl lg:text-5xl xl:text-5xl font-medium font-titleFont">
         Take Your <br /> Coffe Now
