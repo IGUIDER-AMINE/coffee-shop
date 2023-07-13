@@ -13,7 +13,7 @@ export default function Document() {
           name="description"
           content="Coffee-Shop created by Amine IGUIDER in 2023/07"
         />
-        <meta name="keywords" content="Real-Estate" />
+        <meta name="keywords" content="Coffee-Shop" />
       </Head>
       <body>
         <Main />
