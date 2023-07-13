@@ -2,6 +2,8 @@ import { img13, img14, img15, img16 } from "@/public/asstes";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const Reviews = () => {
   return (
@@ -38,7 +40,7 @@ const Reviews = () => {
       <div className="py-36  px-4 lg:px-24">
         <div className="container mx-auto">
           <div className="px-4 gap-x-10 flex items-center">
-            <div className="space-y-8 md:max-w-[50%]">
+            <div className="space-y-8">
               <div className="text-[#D9A97A] font-medium font-titleFont">
                 OUR REVIEW
               </div>
@@ -58,7 +60,23 @@ const Reviews = () => {
                 </Link>
               </div>
             </div>
-            <div></div>
+            <div className="max-w-[50%]">
+              <Swiper
+                slidesPerView={2}
+                spaceBetween={10}
+                loop={true}
+                speed={3000}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+              >
+                <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>Slide 4</SwiperSlide>
+              </Swiper>
+            </div>
           </div>
         </div>
       </div>
